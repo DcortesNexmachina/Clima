@@ -58,6 +58,12 @@ sitios = {"Álava": ['9073X', '1060X', '1044X', '9178X', '9091O', '9122I', '9060
 
 
 def clima(lugar, fecha_inicial, fecha_final, api_key):
+          '''
+          lugar = Provincia de España, con la primera letra en mayúscula. Para obtener un listado: list(climaemet.sitios.keys())
+          fecha_inicial = Fecha de inicio del histórico con el siguiente formato: "2024-06-01T12:10:00UTC"
+          fecha_final = Fecha de fin del histórico, con el mismo formato
+          api_key = Api key de AEMET (https://opendata.aemet.es/centrodedescargas/altaUsuario?)
+          '''
     estaciones = sitios.get(lugar)
     if not estaciones:
         print(f"No se encontraron estaciones para el lugar especificado: {lugar}")
