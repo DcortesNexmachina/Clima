@@ -9,9 +9,9 @@ setup(
         'pandas',
     ],
     description='Paquete para obtener datos climatológicos de AEMET',
-    author='Tu Nombre',
-    author_email='tu_email@example.com',
-    url='https://github.com/tu_usuario/clima',
+    author='David',
+    author_email='dcortes@nexmachina.com',
+    url='https://github.com/DcortesNexmachina/Clima',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
