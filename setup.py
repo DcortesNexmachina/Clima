@@ -11,7 +11,7 @@ setup(
     description='Paquete para obtener datos climatológicos de AEMET',
     author='David',
     author_email='dcortes@nexmachina.com',
-    url='https://github.com/DcortesNexmachina/Clima',
+    url='https://github.com/DcortesNexmachina/Climaemet',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
