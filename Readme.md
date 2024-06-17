@@ -5,4 +5,4 @@ Este paquete permite obtener datos climatológicos de diferentes lugares utiliza
 ## Instalación
 
 ```bash
-pip install git+https://github.com/DcortesNexmachina/Clima.git
+pip install git+https://github.com/DcortesNexmachina/Climaemet.git
